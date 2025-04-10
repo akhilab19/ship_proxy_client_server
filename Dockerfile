@@ -1,0 +1,4 @@
+FROM python:3.9
+WORKDIR /app
+COPY ship_proxy.py .
+CMD ["python", "ship_proxy.py"]
